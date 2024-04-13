@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextEntrada"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:hint="Usuario"/>
+
+    <EditText
+        android:id="@+id/editContrasenaEntrada"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:hint="Contraseña" />
+
+    <Button
+        android:id="@+id/buttonProcesar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Procesar Texto"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextResultado"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:hint="Resultado"
+        android:layout_marginTop="16dp"
+        android:inputType="none"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/editTextContrasenaResultado"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:enabled="false"
+        android:hint="Resultado"
+        android:inputType="none" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_view"
+        android:name="com.example.livedata.fragments.FragmentLive"
+        android:layout_width="match_parent"
+        android:layout_height="493dp" />
+
+
+</LinearLayout>

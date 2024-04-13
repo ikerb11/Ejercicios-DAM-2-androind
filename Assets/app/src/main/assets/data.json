@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Billie Eilish",
+    "edad": 20,
+    "mejor_cancion": "Bad Guy"
+  },
+  {
+    "nombre": "Ed Sheeran",
+    "edad": 31,
+    "mejor_cancion": "Shape of You"
+  },
+  {
+    "nombre": "Ariana Grande",
+    "edad": 28,
+    "mejor_cancion": "Thank U, Next"
+  },
+  {
+    "nombre": "The Weeknd",
+    "edad": 32,
+    "mejor_cancion": "Blinding Lights"
+  }
+]
